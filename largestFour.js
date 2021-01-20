@@ -8,24 +8,29 @@
 
  function largestFour(arr) {
 
+
+    // Firstly, sort the array in descending order
+
     var sortedArray = [];
 
     var largest = arr.sort(function(a, b){return b-a});
 
     sortedArray.push(largest);
 
+    
+    // Make sure to extract the array within the first array 
+   
+    var firstArray = sortedArray[0];
 
-    // From here, once the array is properly sorted in descending order, 
-    // add the total of the first four numbers in the array
 
 
     // 1. Get the first four digits
 
-    var firstArray = sortedArray[0];
-
     // 2. Store the first four digits in a variable 
 
     var firstFour = firstArray.slice(0, 4);
+
+
 
     // 3. Loop through the variable containing the first four digits
 
