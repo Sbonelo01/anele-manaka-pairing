@@ -1,4 +1,4 @@
-# sizwe-pairing
+# Anele-Pairing
 
 ## for `starRating.js`
 
