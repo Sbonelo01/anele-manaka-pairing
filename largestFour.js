@@ -21,13 +21,20 @@
 
     // 1. Get the first four digits
 
+    var firstArray = sortedArray[0];
+
     // 2. Store the first four digits in a variable 
+
+    var firstFour = firstArray.slice(0, 4);
 
     // 3. Loop through the variable containing the first four digits
 
     // 4. Add all the numbers at index "i"
-    
-    var sum = sortedArray[0][0] + sortedArray[0][1] + sortedArray[0][2] + sortedArray[0][3]; 
+
+    var sum = 0;
+    for (var i = 0; i < firstFour.length; i++) {
+        sum += firstFour[i]
+    }
 
     console.log(sum);
 
