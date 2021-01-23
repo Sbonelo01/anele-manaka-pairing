@@ -1,4 +1,4 @@
-# Anele-Pairing
+# Pairing
 
 ## for `starRating.js`
 
